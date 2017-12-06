@@ -56,7 +56,7 @@ main {
 
 #home {
 	height: 720px;
-	background: url('../img/homebg.jpg');
+	background-color: #6b0000;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
