@@ -7,6 +7,8 @@
 html {
 	font-family: 'Niconne', cursive;
 }
+
+
 /* header*/
 header {
 	height: 100%;
@@ -114,9 +116,7 @@ h3 {
 	font-family: 'Molle', cursive;
 }
 /*footer*/
-footer {
-	float: right;
-	width: 80%;
+#footer {
 	height: 50px;
 	background-color: #000;
 	text-align: center;
@@ -128,8 +128,27 @@ footer {
 li:hover {
 	background-color: #000;
 	color: #fff;
+	border-bottom: 2px solid #fff;
 }
 
 li:active {
 	background-color: #EA80FC;
+}
+
+/*toggle*/
+#toggleIcon,
+#toggleIcon1 {
+	background-color: #a5a5a500;
+	position: fixed;
+	top: 0;
+	left: 20%;
+	padding: 15px;
+	z-index: 2222222;
+	font-weight: 2em;
+	color: #fff;
+	border: 1px solid;
+}
+
+#toggleIcon1 {
+	left: 0;
 }
